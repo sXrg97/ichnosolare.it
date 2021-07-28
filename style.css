@@ -292,6 +292,14 @@ nav .container {
   transition: all 0.2s linear;
 }
 
+@media (min-width: 0) and (max-width: 991px) {
+  .partner-img {
+    width: 250px !important;
+    height: auto !important;
+    padding: 2 0rem;
+  }
+}
+
 .partner-img:hover {
   -webkit-filter: brightness(1) invert(0);
   filter: brightness(1) invert(0);
